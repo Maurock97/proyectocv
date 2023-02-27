@@ -9,13 +9,14 @@ body {
 header {
   position: sticky; 
   top: 0; 
-  background-color: #333; 
+  caret-color: transparent; 
   z-index: 1; 
   border-radius: 20px;
+  box-shadow: 0px 0px 25px #222;
 }
 
 nav {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 nav ul {
@@ -39,8 +40,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f9f9f9;
-  color: black;
+  background-color: #f58bb4c9;
+  color: white;
+  border-radius: 20px;
 }
 
 .nav_icon {
@@ -185,13 +187,15 @@ text-align: center;
 
 .presentacioninfo {
   display: inline-flex;
-  background-color: red;
+  background-color: #333;
   width: 30%;
   text-align: center;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   border-radius: 30px;
+  color: white;
+  font-size: 20px;
   
   
 }
@@ -199,10 +203,11 @@ text-align: center;
 
 .cuadro_info_personal {
   border-radius: 20px;
-  background-color: #36aa74c9;
-  border: solid 1px #3636aa;
+  background-color: black;
+  border: solid 3px white;
   width: 89%;
   float: center;
+  color: white;
    }
 
    .subtitulo_infopers{
@@ -294,8 +299,12 @@ footer{
 
 
 .cuerpo_descripcion{
-  margin-left: 20px;
-  margin-right: 20px;
+  line-height: 40px;
+  text-align: justify;
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
 }
 
 .cuerpo_AcercaDeMi-texto{
@@ -407,6 +416,7 @@ footer{
   .cuadro_info_personal {
     border-radius: 100px;
     margin-bottom: 20px;
+    font-size: 10px;
   }
 
 
@@ -439,6 +449,13 @@ footer{
 
 .presentacioninfo {
   width: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+
+}
+
+.cuerpo_AcercaDeMi-texto  {
+  margin-bottom: 80px;
 }
 
 
