@@ -1,6 +1,7 @@
 body {
     background-color: #f1e7e7;
     background-image: url(/asset/background.jpg);
+    background-image: url (background.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
 }
