@@ -5,12 +5,60 @@ body {
     background-size: cover;
 }
 
+
+header {
+  position: sticky; 
+  top: 0; 
+  background-color: #333; 
+  z-index: 1; 
+  border-radius: 20px;
+}
+
+nav {
+  overflow: hidden; 
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+nav li {
+  flex-grow: 1; 
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.nav_icon {
+  color:  black;
+font-size: 30px;
+
+  
+   }
+
+
+
+
 .header.center {
     float: right;
     width: 50px;
     height: 40px;
     align-items: center;   
-    padding: 15px; 
+    padding: 14px; 
 }
 
 .titulos {
@@ -91,7 +139,7 @@ text-align: center;
 
 .botonizq {
   color: white;
-  border: 2px solid #030305;
+  border: 2px solid #333;
   border-radius: 20px;
   padding: 20px 60px;
   text-decoration: none;
@@ -99,7 +147,7 @@ text-align: center;
   font-style: italic;
   font-size: 30px;
   margin-right: 30px;
-  background-color: black;
+  background-color: #333;
 }
 
 .botonizq:hover {
@@ -110,7 +158,7 @@ text-align: center;
 
 .botonder {
   color: white;
-  border: 2px solid #030305;
+  border: 2px solid #333;
   border-radius: 20px;
   padding: 20px 60px;
   text-decoration: none;
@@ -118,7 +166,7 @@ text-align: center;
   font-style: italic;
   display: inline-flex;
   text-align: center;
-  background-color: black;
+  background-color: #333;
   
   
 
@@ -199,56 +247,7 @@ text-align: center;
 
 
 
-    .nav{
-      position: fixed;
-      
-      width: calc(200px + 20%);
-      height: 75px;
-
-      border-radius: 50px 50px 50px 50px;
-      bottom: 5vh;
-
-      margin-left: auto;
-      margin-right: auto;
-
-      left: 0;
-      right: 0;
-
-      box-shadow: 0px 0px 25px #222;
-      backdrop-filter: blur(10px);
-      
-  }
-
-  .nav_container{
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    list-style: none;
-}
-.nav_icon{
-    color: whitesmoke;
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    text-decoration: none;
-}
-
-.nav_icon:hover{
-  color: #1f1f38;
-  background-color: #00aeff;
-}
-
-
-
-.linknav {
-  text-decoration: none;
-}
+ 
 
 .portafolio {
   display: grid;
@@ -314,7 +313,7 @@ footer{
   justify-content: center;
 }
 
-.cuerpo_tarjeta{
+.cuerpotarjeta{
   width: 20%;
   height: 250px;
 
@@ -333,7 +332,7 @@ footer{
   
 }
 
-.cuerpo_icono{
+.iconoacercademi{
   font-size: calc(30px);
   color: #0086c4;
 }
@@ -342,12 +341,6 @@ footer{
   margin-top: 0;
   display: block;
 }
-
-
-
-
-
-
 
 
 
@@ -382,12 +375,15 @@ footer{
   }
   .botonder {
     margin-left: 10vh;
-    margin-right: 10vh;
+    margin-right: 4vh;
+    font-size: 20px;
   }
   .botonizq {
     margin-left: 10vh;
-    margin-right: 10vh;
-    margin-bottom: 10px;
+    margin-right: 5vh;
+    margin-bottom: 2%;
+    font-size: 20px;
+
   }
   
   .cuadro_info_personal {
@@ -413,6 +409,37 @@ footer{
     margin-bottom: 20px;
   }
 
+
+  .cuerpotarjeta{
+    width: 30%;
+    height: 10%;
+  
+    border-radius: 6px;
+  
+
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    
+  }
+
+  .portafolio {
+
+  }
+
+  .tituloportafolio {
+    flex-wrap: wrap;
+  }
+
+  .portafolio img {
+    opacity: 100%;
+  }
+
+
+.presentacioninfo {
+  width: 50%;
+}
 
 
 
