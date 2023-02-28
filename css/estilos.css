@@ -1,10 +1,18 @@
 body {
-    background-color: #f1e7e7;
-    background-image: url(/asset/background.jpg);
-    background-image: url (background.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
+  background-color: #fff; 
+  width: 100%;
 }
+
+.botoncambiarcolor {
+  padding: 10px 20px;
+  background-color: black; 
+  color: white;
+  border: none;
+  border-radius: 50px;
+  float: right;
+  
+}
+
 
 
 header {
@@ -201,6 +209,20 @@ text-align: center;
   
 }
 
+.presentacionportafolio{
+  display: inline-flex;
+  background-color: #333;
+  width: 30%;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  margin-left: 500px;
+}
+
 
 .cuadro_info_personal {
   border-radius: 20px;
@@ -353,6 +375,10 @@ footer{
   display: block;
 }
 
+.formulario {
+  
+}
+
 
 
 @media   screen and (max-width: 480px) {
@@ -436,9 +462,6 @@ footer{
     
   }
 
-  .portafolio {
-
-  }
 
   .tituloportafolio {
     flex-wrap: wrap;
@@ -453,6 +476,14 @@ footer{
   width: 50%;
   margin-top: 0px;
   margin-bottom: 40px;
+
+}
+
+.presentacionportafolio {
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 0px;
 
 }
 

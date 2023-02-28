@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto cv</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-    <link rel="stylesheet" type="text/css" href="estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -24,12 +23,16 @@
         <nav>
           <ul>
             <li><a href="#headerprinciapl"><i class="bi bi-house nav_icon"></i></a></li>
-            <li><a href="#acercademi"><i class="bi bi-house nav_icon"></i></a></li>
-            <li><a href="#"><i class="bi bi-house nav_icon"></i></a></li>
-            <li><a href="#"><i class="bi bi-house nav_icon"></i></a></li>
+            <li><a href="#acercademi"><i class="bi bi-info-circle nav_icon"></i>            </a></li>
+            <li><a href="#informacionprincipal"><i class="bi bi-heart nav_icon"></i>  </a></li>
+            <li><a href="#portafolio"><i class="bi bi-wallet-fill nav_icon"></i></a></li>
           </ul>
         </nav>
       </header>
+
+
+
+
 
       <section  class="headerprincipal">
                     <div class="titulos">
@@ -58,8 +61,11 @@
                                     <div class="imagenprincipal">
                                         <img class="imagenperfil" src="/asset/perfil.png"   alt= "La imagen no pudo ser cargada">
                                          </div>
+
+                                         <button class="botoncambiarcolor" id="cambiar-color">Cambiar Color</button>
                                         </div>
                   </section>
+
 
 
 
@@ -99,22 +105,6 @@
                     </article>
 
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <main class="headermains">
                                <section class="informacionprincipal">
@@ -271,6 +261,10 @@
                                     </article>
                                         </main>
                                         <section>
+                                            <div class="presentacionportafolio">
+                                                <h3 class="headermains">Estos son algunos de los proyectos que realicé.</h3>
+                                               </div>
+
                                             <div class="portafolio">
                                                 <a href="slsaldldsks" class="tituloportafolio"><img  src="/asset/portafolio1.png" width="500" height="180" alt="" >Desarrolo Web</a>
                                                 <a href="slsaldldsks" class="tituloportafolio"><img  src="/asset/portafolio2.webp" width="500" height="180" alt="" >Desarrolo de videojuegos</a>
@@ -279,11 +273,36 @@
                                         
                                             </div>
                                         </section>
+
+
+                                        <form class="formulario" id="contactame_form">
+                                            <div>
+                                                <input type="text" id="contactame_nombre" placeholder="Nombre">
+                                            </div>
+                                            <div>
+                                                <input type="text" id="contactame_email" required placeholder="Email">
+                                            </div>
+                                            <div>
+                                                <textarea type="text" id="contactame_mensaje" required placeholder="Enviar comentarios sobre esta página."></textarea>
+                                            </div>
+                                            <button id="contactame_enviar">Enviar mensaje</button>
+                                        </form>
+
+
+
+
+
+
+
+
+                                        <script src="/js/script.js"></script>
+
                                                 
                     
 
                                         <footer id="footerID">
-                                            asdf
+
+
                                         </footer>      
 </body>
 
