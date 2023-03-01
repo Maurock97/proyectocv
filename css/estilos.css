@@ -1,5 +1,5 @@
 body {
-  background-color: #fff; 
+  background-color: #DFD3D1; 
   width: 100%;
 }
 
@@ -11,6 +11,17 @@ body {
   border-radius: 50px;
   float: right;
   
+}
+
+.boton_color {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+ }
+
+.cambiacoloricon {
+  color: white;
+  font-size: 30px;
 }
 
 
@@ -60,6 +71,8 @@ font-size: 30px;
 
   
    }
+
+  
 
 
 
@@ -329,6 +342,12 @@ footer{
   text-align: center;
   font-size: 20px;
   margin-left: 370px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.parrafo_tarjetas {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cuerpo_AcercaDeMi-texto{
@@ -375,9 +394,16 @@ footer{
   display: block;
 }
 
-.formulario {
-  
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -483,7 +509,7 @@ footer{
   width: 50%;
   margin-top: 0px;
   margin-bottom: 40px;
-  margin-left: 0px;
+  margin-left: 97px;
 
 }
 
@@ -495,6 +521,17 @@ footer{
   width: 100%;
   margin-left: 0px;
 }
+
+.botoncambiarcolor {
+padding: 3px 5px;
+
+
+}
+
+.boton_color {
+  width: 10%;
+}
+
 
 
 
