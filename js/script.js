@@ -12,3 +12,9 @@ botonCambiarColor.addEventListener("click", () => {
   
   document.body.style.backgroundColor = colorAleatorio;
 });
+
+
+var btn =document.getElementById ("btn")
+btn.onclick = function() {
+  alert("El mensaje fue enviado")
+};
