@@ -103,14 +103,6 @@ font-size: 20px;
 text-align: center;
 }
 
-#descripcionprincipal {
-    text-align: center;
-    background-color: white;
-    margin-right: 300px;
-    margin-left: 300px;
-}
-
-
 
 .listaizquierda {
     
@@ -144,11 +136,6 @@ text-align: center;
   .bi bi-check-circle {
     margin-left: -9px;
     margin-right: 360px;
-  }
-
-  #lol { 
-    margin-left: -9px;
-    margin-left: 360px;
   }
 
 .botonesprincipales {
